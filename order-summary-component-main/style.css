@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: -110px;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 62.5%;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 80%;
+    max-width: 380px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;   
+}
+
+.primmary-content,
+.plan,
+.btn{
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.primmary-content h1{
+    margin-bottom: 15px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+
+.primmary-content p{
+    color: hsl(224, 23%, 55%);
+    font-size: 0.95rem;
+}
+
+.plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    padding: 15px;
+    gap: 15px;
+}
+
+.plan-type{
+    text-align: start;
+    flex-grow: 1;
+}
+.name{
+    
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: .9rem;
+}
+
+.price{
+    color: hsl(224, 23%, 55%);
+    font-size: .8rem;
+}
+
+.change{
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+    font-size: .9rem;
+}
+
+.change:active{
+    text-decoration: none;
+}
+
+.btn a{
+    display: block;
+    padding: 15px;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: .9rem;
+}
+
+.btn a:active{
+    background-color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+
+.cancel{
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: .7rem;
+}
+
+.cancel:active{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
